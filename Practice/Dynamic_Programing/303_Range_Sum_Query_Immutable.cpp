@@ -28,3 +28,4 @@ public:
         return sum[j+1] - sum[i];
     }
 };
+

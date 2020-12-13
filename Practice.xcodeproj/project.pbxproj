@@ -13,6 +13,7 @@
 		8907F5B725850690007B171E /* 276_Paint_Fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5B625850690007B171E /* 276_Paint_Fence.cpp */; };
 		8907F5BB2585A4EE007B171E /* 198_House_Robber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5BA2585A4EE007B171E /* 198_House_Robber.cpp */; };
 		8907F5BF2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5BE2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp */; };
+		8907F5C225867BBF007B171E /* 312.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5C125867BBF007B171E /* 312.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		8907F5B625850690007B171E /* 276_Paint_Fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 276_Paint_Fence.cpp; sourceTree = "<group>"; };
 		8907F5BA2585A4EE007B171E /* 198_House_Robber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 198_House_Robber.cpp; sourceTree = "<group>"; };
 		8907F5BE2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 303_Range_Sum_Query_Immutable.cpp; sourceTree = "<group>"; };
+		8907F5C125867BBF007B171E /* 312.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 312.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				8907F5BA2585A4EE007B171E /* 198_House_Robber.cpp */,
 				8907F5BE2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp */,
+				8907F5C125867BBF007B171E /* 312.cpp */,
 			);
 			path = Dynamic_Programing;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				8907F5AD258483F5007B171E /* 35_Search_Insert_Position.cpp in Sources */,
 				8907F5B725850690007B171E /* 276_Paint_Fence.cpp in Sources */,
 				8907F5B32584EDFA007B171E /* 865_Smallest_Subtree_with_all_the_deepest_node.cpp in Sources */,
+				8907F5C225867BBF007B171E /* 312.cpp in Sources */,
 				8907F5BB2585A4EE007B171E /* 198_House_Robber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
