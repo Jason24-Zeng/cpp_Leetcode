@@ -11,6 +11,8 @@
 		8907F5AD258483F5007B171E /* 35_Search_Insert_Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5AC258483F5007B171E /* 35_Search_Insert_Position.cpp */; };
 		8907F5B32584EDFA007B171E /* 865_Smallest_Subtree_with_all_the_deepest_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5B22584EDFA007B171E /* 865_Smallest_Subtree_with_all_the_deepest_node.cpp */; };
 		8907F5B725850690007B171E /* 276_Paint_Fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5B625850690007B171E /* 276_Paint_Fence.cpp */; };
+		8907F5BB2585A4EE007B171E /* 198_House_Robber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5BA2585A4EE007B171E /* 198_House_Robber.cpp */; };
+		8907F5BF2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907F5BE2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		8907F5AC258483F5007B171E /* 35_Search_Insert_Position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 35_Search_Insert_Position.cpp; sourceTree = "<group>"; };
 		8907F5B22584EDFA007B171E /* 865_Smallest_Subtree_with_all_the_deepest_node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 865_Smallest_Subtree_with_all_the_deepest_node.cpp; sourceTree = "<group>"; };
 		8907F5B625850690007B171E /* 276_Paint_Fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 276_Paint_Fence.cpp; sourceTree = "<group>"; };
+		8907F5BA2585A4EE007B171E /* 198_House_Robber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 198_House_Robber.cpp; sourceTree = "<group>"; };
+		8907F5BE2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 303_Range_Sum_Query_Immutable.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		8907F59D25846FB2007B171E /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				8907F5B92585A4AA007B171E /* Dynamic_Programing */,
 				8907F5B12584EDC6007B171E /* DFS */,
 				8907F5B0258486C0007B171E /* Binary_Search */,
 				8907F5A6258475F4007B171E /* Two_Pointer */,
@@ -93,6 +98,15 @@
 				8907F5B625850690007B171E /* 276_Paint_Fence.cpp */,
 			);
 			path = DFS;
+			sourceTree = "<group>";
+		};
+		8907F5B92585A4AA007B171E /* Dynamic_Programing */ = {
+			isa = PBXGroup;
+			children = (
+				8907F5BA2585A4EE007B171E /* 198_House_Robber.cpp */,
+				8907F5BE2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp */,
+			);
+			path = Dynamic_Programing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8907F5BF2585ABB3007B171E /* 303_Range_Sum_Query_Immutable.cpp in Sources */,
 				8907F5A925847659007B171E /* 141_Linked_List_Cycle.cpp in Sources */,
 				8907F5AD258483F5007B171E /* 35_Search_Insert_Position.cpp in Sources */,
 				8907F5B725850690007B171E /* 276_Paint_Fence.cpp in Sources */,
 				8907F5B32584EDFA007B171E /* 865_Smallest_Subtree_with_all_the_deepest_node.cpp in Sources */,
+				8907F5BB2585A4EE007B171E /* 198_House_Robber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
